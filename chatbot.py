@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 
 # streamlit page setup
-st.set_page_config(page_tittle="Chatbot", page_icon="🤖")
+st.set_page_config(page_title="Chatbot", page_icon="🤖")
 
 #load pretrained model
 def load_text_generator():
